@@ -1,0 +1,9 @@
+/* style.css */
+body {
+    scroll-behavior: smooth;
+}
+.card-hover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
